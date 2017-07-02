@@ -1,0 +1,132 @@
+<!doctype html>
+
+
+<html>
+  <head>
+    <title>
+      Portfolio
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aditya Jaiswal">
+    <meta name="description" content="Portfolio">
+
+    <link rel="stylesheet" href="./css/portfolio.css">
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500,700" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class = "flex_container">
+    <section id="home">
+
+      <header>
+
+        <figure> <!--Contains company logo -->
+          <img id = "logo" src="./images/logo.png" alt="Logo">
+        </figure>
+
+        <nav id = "nav_full"> <!--Navigation bar for more than 500px updates using media query-->
+        <ul>
+          <li><a href="#top"> Home </a></li>
+          <li><a href="#resume_name"> Resume </a></li>
+          <li><a href="#contact_link"> Contact </a></li>
+        </ul>
+      </nav>
+
+      <nav> <!--Navigation bar for less than 500px updates using media query-->
+        <div class="dropdown">
+          <img src="./images/Drop.png" alt="Drop Down" class="dropbtn">
+          <div class="dropdown-content">
+              <a href="#top"> Home </a>
+              <a href="#resume_name"> Resume </a>
+              <a href="#contact_link"> Contact </a>
+          </div>
+        </div>
+      </nav>
+
+      </header>
+
+      <div class="intro">
+        <h1>Hi! I’m <span><b>Aditya</b></span></h1> <!--Introduction -->
+        <h5>Programmer / Webdeveloper</h5>
+
+        <figure> <!--Contains Your Image for portfolio -->
+          <img id = "main_picture" src="./images/kid_goku.png" alt="My Picture">
+        </figure>
+
+      </div>
+    </section>
+
+
+
+    <div class="resume_container">
+
+      <a id="resume_name"></a>
+
+
+      <div class="div_heading">
+        <h2>Resume</h2> <!--Resume Details-->
+      </div>
+
+      <h2 class = "resume_heading">About Me</h2>
+      <p class="resume_content">
+        "I am a programmer / webdeveloper based in Ambala Cantt, India. I have a passion of creating and learning new things from sctrach."
+      </p>
+
+      <h2 class = "resume_heading">education</h2>
+      <figure>
+        <img src="./images/edu.jpg" alt="Education Status">
+      </figure>
+
+      <h2 class = "resume_heading">Professional skills</h2>
+      <figure>
+        <img src="./images/pro.jpg" alt="Skills Status">
+      </figure>
+
+      <h2 class = "resume_heading">Projects</h2>
+      <figure>
+        <img src="./images/proj.jpg" alt="Projects Made">
+      </figure>
+
+      <h2 class = "resume_heading">CO-CURRICULAR</h2>
+      <p class="resume_content">Participated in Let's Code competition organized by Chitkara
+          University.
+      </p>
+      <p class="resume_content">Participated in Entre Vista (Group Discussion) organized by
+          Chitkara University.
+      </p>
+
+
+      <a id="contact_link"></a> <!--Contact Details -->
+
+      <div class="div_heading">
+          <h2>Contact</h2>
+      </div>
+
+      <p class="resume_content">Phone Number : 9468188411</p>
+      <p class="resume_content">Email : addyjaiswal2309@gmail.com</p>
+      <p class="resume_content">
+        Address : #16 - Vishnu Garden,<br>
+        Dyal Bagh,
+        Ambala Cantt,<br>
+        Haryana,
+        India
+      </p>
+    </div>
+
+
+      <footer> <!--Copyright content shows here-->
+        <div id = "footer">
+          <p>@copyrights..</p>
+        </div>
+      </footer>
+
+
+    </div>
+  </body>
+
+
+</html>
